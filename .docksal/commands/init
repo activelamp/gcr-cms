@@ -45,7 +45,7 @@ fin hosts remove $VIRTUAL_HOST
 fin hosts add $VIRTUAL_HOST
 # Install site
 cd $DOCROOT
-fin drush site-install sitefarm_subprofile -y --site-name="SiteFarm Distro"
+fin drush site-install gcr_profile -y --site-name="SiteFarm Distro"
 # Get login link
 fin drush uli --uri="http://$VIRTUAL_HOST"
 # Set permissions

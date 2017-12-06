@@ -1,4 +1,4 @@
-This is a SiteFarm Composer-based Drupal distribution template.
+This is the GCR CMS based on the SiteFarm Composer-based Drupal distribution template.
 
 ## Get Started
 You will need the following installed:
@@ -8,6 +8,7 @@ You will need the following installed:
 When you have that, run this command:
 ```
 $ composer install
+$ fin init
 ```
 Composer will download and install the SiteFarm install profile. You can then install it like you would any other Drupal site.
 

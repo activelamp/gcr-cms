@@ -17,7 +17,7 @@ steps:
     drupalVersion: 8
     subDirectory: web
     runInstall: true
-    profileName: sitefarm_subprofile
+    profileName: gcr_profile
     installArgs: '--site-name="Testing SiteFarm Distro Template on Probo" --account-pass=probo --account-mail=wdtest@ucdavis.edu'
   - name: Fix files directory permissions
     command: 'chown -R www-data:www-data /var/www/html/sites/default/files'
